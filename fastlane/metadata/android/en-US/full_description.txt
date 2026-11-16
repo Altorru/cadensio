@@ -1,0 +1,29 @@
+Test your cycling Bluetooth connection without a smart trainer.
+
+Cadensio turns a compatible Android phone into a simulated Bluetooth LE cycling sensor. Set power and cadence, then connect a cycling app on another device to test data reception.
+
+WHO IS IT FOR?
+Developers, technical support teams and users diagnosing an FTMS connection or exploring how cycling apps receive power and cadence data.
+
+CONTROL YOUR TEST SIGNAL
+• Set power from 0 to 1,000 W, with quick presets for 100, 150 and 250 W.
+• Set cadence from 0 to 200 rpm.
+• Adjust power and cadence variation independently, or use zero variation for a constant signal.
+• Set simulated speed from 0 to 60 km/h.
+• Optional ERG mode follows received FTMS target-power commands. Cadence stays manual.
+• See broadcasting, connections and data subscriptions separately.
+
+CONNECT IN THREE STEPS
+1. Set your signal.
+2. Start Bluetooth broadcasting on your phone.
+3. On another device, find your phone's Bluetooth name in your cycling app.
+
+Cadensio broadcasts FTMS, Cycling Power and Cycling Speed and Cadence services. Compatibility depends on your phone and receiving app; universal compatibility is not guaranteed.
+
+SIMPLE AND TRANSPARENT
+Free, without ads, in-app purchases or accounts. The app works offline with no tracking SDK. Settings stay on your phone. English and French interface. Source code and support: https://github.com/Altorru/cadensio
+
+BEFORE YOU START
+Requires Android 8 or later and a phone supporting Bluetooth LE peripheral advertising. The receiving cycling app must run on another device. A notification lets you stop background broadcasting.
+
+Cadensio is a simulation and diagnostic tool. It does not measure physical effort, control a real trainer or replace an exercise sensor. Do not present synthetic data as a real activity or use it to obtain competition results or rewards. Cadensio is independent of cycling platforms.

@@ -1,0 +1,1 @@
+Test cycling Bluetooth connections with simulated power, cadence and ERG.

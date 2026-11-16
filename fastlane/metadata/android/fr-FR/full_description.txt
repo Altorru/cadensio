@@ -1,0 +1,29 @@
+Testez votre connexion vélo Bluetooth, sans home trainer connecté.
+
+Cadensio transforme un téléphone Android compatible en capteur vélo Bluetooth LE simulé. Réglez la puissance et la cadence, puis connectez une application vélo sur un autre appareil pour tester la réception des données.
+
+POUR QUI ?
+Pour les développeurs, le support technique et les utilisateurs qui veulent diagnostiquer une connexion FTMS ou comprendre comment une application reçoit la puissance et la cadence.
+
+UN SIGNAL QUE VOUS MAÎTRISEZ
+• Puissance réglable de 0 à 1 000 W, avec accès rapide à 100, 150 et 250 W.
+• Cadence réglable de 0 à 200 tr/min.
+• Variations indépendantes de puissance et de cadence ; variation nulle pour un signal constant.
+• Vitesse simulée de 0 à 60 km/h.
+• Mode ERG : suit les commandes de puissance cible FTMS reçues. La cadence reste manuelle.
+• État de diffusion, connexions et abonnements aux données visibles séparément.
+
+UNE CONNEXION EN TROIS ÉTAPES
+1. Réglez votre signal.
+2. Démarrez la diffusion Bluetooth sur le téléphone.
+3. Sur un autre appareil, recherchez le nom Bluetooth du téléphone dans votre application vélo.
+
+Les services FTMS, Cycling Power et Cycling Speed and Cadence sont diffusés. La compatibilité dépend du téléphone et de l’application réceptrice ; aucune compatibilité universelle n’est garantie.
+
+SIMPLE ET TRANSPARENT
+Cadensio est gratuit, sans publicité, sans achat intégré et sans compte. L’app fonctionne hors ligne, sans outil de suivi. Les réglages restent sur le téléphone. Interface en français et en anglais. Le code source et l’assistance sont disponibles sur GitHub : https://github.com/Altorru/cadensio
+
+À SAVOIR
+Android 8 ou plus récent et un téléphone prenant en charge la diffusion Bluetooth LE sont nécessaires. L’application vélo doit fonctionner sur un autre appareil. Une notification permet d’arrêter la diffusion en arrière-plan.
+
+Cadensio est un outil de simulation et de diagnostic. Il ne mesure pas l’effort physique, ne contrôle pas un vrai home trainer et ne remplace pas un capteur sportif. Les données synthétiques ne doivent pas être présentées comme une activité réelle ou utilisées pour obtenir des résultats de compétition ou des récompenses. Cadensio est indépendant des plateformes de cyclisme.

@@ -1,0 +1,1 @@
+Testez une connexion vélo Bluetooth : puissance, cadence et cible ERG simulées.

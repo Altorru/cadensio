@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://altorru.github.io/cadensio/sitemap.xml
