@@ -20,6 +20,7 @@ Store copy lives in `fastlane/metadata/android/{en-US,fr-FR}`. The app itself su
 
 - No ads, no account, no restricted login access.
 - No analytics, crash-reporting or ad SDK; no Internet permission. Settings and live connection routing are local. Simulated values are sent over BLE to the user's receiver; the receiver may record them.
+- Data safety: device identifiers declared as collected for app functionality because the Bluetooth identity/name leaves the phone during broadcasting. No encrypted-transfer claim, no guarantee of ephemeral retention by receivers, no developer deletion mechanism for receiver records. User-initiated receiver transfer is excluded from sharing under Google’s definition. No analytics or server collection is implied.
 - Privacy policy: https://altorru.github.io/cadensio/privacy.html
 - Website/source: https://github.com/Altorru/cadensio
 - Connected-device foreground service: user explicitly starts the BLE simulator; it sends simulated sensor values to a connected fitness receiver, displays a persistent stop notification, and stops on user request. Record a truthful demonstration for review if required; do not fake a hardware connection.
@@ -27,7 +28,7 @@ Store copy lives in `fastlane/metadata/android/{en-US,fr-FR}`. The app itself su
 
 ## Publication state
 
-At repository creation, Google Play publication is still in preparation. The intended URL is https://play.google.com/store/apps/details?id=fr.hugoviaud.cadensio. A URL alone is not evidence that the listing is live. Update the README and website after actual availability is verified.
+Google Play app created on 16 November 2026. English and French listings, screenshots, privacy, support email, HTTPS GitHub website link and content declarations saved. Production release preparation started; publication remains in preparation, pending remaining Console steps and Google review. The intended URL is https://play.google.com/store/apps/details?id=fr.hugoviaud.cadensio. A URL alone is not evidence that the listing is live. Update the README and website after actual availability is verified.
 
 ## Acquisition measurement after launch
 
@@ -39,3 +40,5 @@ Review Play Console search terms, store visitors, listing conversion, installs, 
 - https://support.google.com/googleplay/android-developer/answer/9866151 — icon, feature graphic and screenshots.
 - https://support.google.com/googleplay/android-developer/answer/10144311 — privacy policy requirements.
 - https://developer.android.com/studio/publish/app-signing — upload key and Play signing.
+
+- https://support.google.com/googleplay/android-developer/answer/10787469 — Data safety definitions and user-initiated sharing exception.
