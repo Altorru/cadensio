@@ -5,7 +5,7 @@
 
 Cadensio turns a compatible Android phone into a **simulated Bluetooth LE cycling sensor**. Set power and cadence, connect a cycling app on another device and inspect the connection. Useful for developers, technical support and connection diagnostics without a smart trainer.
 
-**Google Play status:** publication in preparation. The intended listing is [Cadensio on Google Play](https://play.google.com/store/apps/details?id=fr.hugoviaud.cadensio); it becomes available only after Google approves and publishes the app. Do not interpret this link as proof of availability.
+**Google Play status (16 November 2026):** version 1.0.0 submitted for review. Automatic pre-review checks and Google approval are pending. Publication is configured to proceed automatically after approval. The intended listing is [Cadensio on Google Play](https://play.google.com/store/apps/details?id=fr.hugoviaud.cadensio); it becomes available only after Google approves and publishes the app. Do not interpret this link as proof of availability.
 
 ## What it does
 

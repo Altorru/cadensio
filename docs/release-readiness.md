@@ -28,7 +28,7 @@ Store copy lives in `fastlane/metadata/android/{en-US,fr-FR}`. The app itself su
 
 ## Publication state
 
-Google Play app created on 16 November 2026. English and French listings, screenshots, privacy, support email, HTTPS GitHub website link and content declarations saved. Production release preparation started; publication remains in preparation, pending remaining Console steps and Google review. The intended URL is https://play.google.com/store/apps/details?id=fr.hugoviaud.cadensio. A URL alone is not evidence that the listing is live. Update the README and website after actual availability is verified.
+Google Play app created on 16 November 2026. English and French listings, screenshots, privacy, support email, HTTPS GitHub website link and content declarations saved. Version 1.0.0 and all 13 changes submitted on 16 November 2026. Console shows “Changes in review”; automated pre-review checks remain in progress before Google review. Managed publishing is off, so the approved release is configured for automatic publication. All 178 offered countries/regions are targeted. IARC terms accepted with explicit publisher authorization and questionnaire completed: PEGI 3 / ESRB Everyone. Advertising ID declaration is No; foreground-service declaration includes the genuine emulator demonstration at https://altorru.github.io/cadensio/service-review.html. No remaining content-rating blocker was shown after submission. Public availability is not yet verified. The intended URL is https://play.google.com/store/apps/details?id=fr.hugoviaud.cadensio. A URL alone is not evidence that the listing is live. Update the README and website after actual availability is verified.
 
 ## Acquisition measurement after launch
 
