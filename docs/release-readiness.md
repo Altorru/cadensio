@@ -13,7 +13,7 @@ Store copy lives in `fastlane/metadata/android/{en-US,fr-FR}`. The app itself su
 - Debug and signed release APK/AAB builds pass with Android SDK 36 / Java 17.
 - Android lint passes; inspect the generated report for non-blocking platform deprecations.
 - Protocol test suite passes (encoding, bounds, independent random variation, crank integration and rollover).
-- Emulator UI verification is tracked in the release preparation notes. It does not validate radio interoperability.
+- Emulator UI verified: onboarding, power presets, persistence across relaunch, ERG toggle and automatic return to manual after power edit, English/French switching in both directions, help/privacy dialogs, Nearby devices and notification prompts, broadcasting start/stop. A language-recreation crash was found and fixed before this build. These tests do not validate radio interoperability.
 - Physical Android phone + independent receiver test remains required: service discovery, data subscription, ERG requests, background persistence, disconnect/reconnect and stop.
 
 ## Play declarations to complete truthfully
